@@ -7,10 +7,13 @@ const Header = () => {
             <h2>Todo List</h2>
          </div>
          <div className="header-info w-full flex justify-between">
-            <div className="info-date">2024.FEB.12.MON PM 7:13</div>
             <div className="info-counter flex gap-3">
                <div className="counter-todo">todo: 0</div>
                <div className="counter-done">done: 1</div>
+            </div>
+            <div className="info-time flex gap-3">
+               <div className="info-date">2024.FEB.12.MON</div>
+               <div className="info-clock">PM 7:13</div>
             </div>
          </div>
          <div className="header-input">
